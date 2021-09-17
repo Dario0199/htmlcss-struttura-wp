@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pad-o{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+.marg-b{
+    margin-bottom: 20px;
+}
+
+/* debug-box */
+.debug-box{
+    height: 30px;
+    background: violet;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+/* header */
+header{
+    height: 60px;
+}
