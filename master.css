@@ -6,7 +6,7 @@
 
 /* utility */
 .container{
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -22,10 +22,15 @@
 /* debug-box */
 .debug-box{
     height: 30px;
-    background: violet;
     border: 1px solid rgba(0, 0, 0, .2);
 }
-/* header */
-header{
-    height: 60px;
+
+.header{
+    background: violet
+}
+
+/* article */
+.article{
+    background: darkkhaki;
+    
 }
