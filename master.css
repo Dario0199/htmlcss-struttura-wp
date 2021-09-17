@@ -16,7 +16,13 @@
     }
 
 .marg-b{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /* debug-box */
@@ -32,5 +38,28 @@
 /* article */
 .article{
     background: darkkhaki;
-    
+}
+
+/* main content */
+.sidebar, .main-content{
+    float: left;
+}
+
+.title{
+    width: 100%;
+    background: royalblue;
+    padding-bottom: 15px;
+}
+.sidebar{
+    width: 25%;
+    background: royalblue;
+}
+
+.main-content{
+    width: 50%;
+    background: royalblue;
+}
+
+.txt-aside, .txt-content, .txt-title{
+    background: lightblue;
 }
