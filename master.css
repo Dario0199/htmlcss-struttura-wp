@@ -6,13 +6,13 @@
 
 /* utility */
 .container{
-    width: 40%;
+    width: 35%;
     margin: 0 auto;
 }
 
 .pad-o{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     }
 
 .marg-b{
@@ -28,7 +28,7 @@
 /* debug-box */
 .debug-box{
     height: 30px;
-    border: 1px solid rgba(0, 0, 0, .2);
+    
 }
 
 .header{
@@ -37,12 +37,13 @@
 
 /* article */
 .article{
-    background: darkkhaki;
+    background: rgb(236, 224, 112) ;
 }
 
 /* main content */
 .sidebar, .main-content{
     float: left;
+    padding-bottom: 15px;
 }
 
 .title{
@@ -62,4 +63,12 @@
 
 .txt-aside, .txt-content, .txt-title{
     background: lightblue;
+}
+
+main{
+    margin-bottom: 5px;
+}
+
+.txt-footer{
+    background: darkorchid;
 }
